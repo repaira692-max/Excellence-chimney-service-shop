@@ -16,3 +16,4 @@ Before uploading:
 5. Add the final domain in Google Search Console and submit sitemap.xml.
 
 Phone/WhatsApp: 8130457838
+Website deployment update
