@@ -1,0 +1,1 @@
+Upload index.html and CNAME to a GitHub repository. Enable Settings > Pages > Deploy from branch > main > root. Add custom domain excellencechimneyservice.shop.
