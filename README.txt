@@ -1,1 +1,1 @@
-Upload the files in this folder to the root of your existing GitHub Pages repository. Keep your current index.html backup before replacing it. This package includes a replacement homepage and linked service/legal pages. Check phone number and business details before publishing.
+
