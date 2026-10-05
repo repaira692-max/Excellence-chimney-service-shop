@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://excellencechimneyservice.shop/sitemap.xml
