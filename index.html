@@ -1,737 +1,118 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Excellence Chimney Service | Chimney, Hob, Gas Stove & Microwave Service Delhi NCR</title>
-
-<meta name="description" content="Excellence Chimney Service provides chimney cleaning, chimney repair, gas stove, gas hob, microwave and oven service in Delhi NCR including Delhi, Noida, Gurgaon, Ghaziabad and nearby areas. Call 8130457838.">
-
-<meta name="keywords" content="chimney service Delhi, chimney cleaning Delhi, chimney repair Delhi, chimney service near me, chimney service Noida, chimney service Gurgaon, chimney service Ghaziabad, gas stove repair, gas hob service, microwave repair, oven repair, kitchen chimney cleaning">
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
+<meta name="description" content="Excellence Chimney Service provides chimney cleaning, chimney repair, gas stove and hob service, microwave and oven repair at home across Delhi NCR. Call 8130457838.">
+<meta name="keywords" content="chimney service Delhi NCR, chimney cleaning, chimney repair, hob repair, gas stove repair, microwave repair, oven repair, kitchen appliance service">
+<meta name="theme-color" content="#0b1220">
+<meta property="og:title" content="Excellence Chimney Service">
+<meta property="og:description" content="Chimney, Hob, Gas Stove, Microwave & Oven Service at Home in Delhi NCR">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://excellencechimneyservice.shop/">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"LocalBusiness",
+ "name":"Excellence Chimney Service",
+ "url":"https://excellencechimneyservice.shop/",
+ "telephone":"+91-8130457838",
+ "description":"Chimney, hob, gas stove, microwave and oven home service in Delhi NCR.",
+ "areaServed":["Delhi","Noida","Gurgaon","Ghaziabad","Sonipat","Faridabad","Greater Noida","Meerut","Modinagar","Hapur"],
+ "address":{"@type":"PostalAddress","addressLocality":"Karawal Nagar","addressRegion":"Delhi","postalCode":"110094","addressCountry":"IN"},
+ "sameAs":[]
 }
-
-body{
-    background:#f7f8fa;
-    color:#17202a;
-    line-height:1.6;
-}
-
-header{
-    background:#ffffff;
-    position:sticky;
-    top:0;
-    z-index:999;
-    box-shadow:0 2px 12px rgba(0,0,0,.08);
-}
-
-.nav{
-    max-width:1200px;
-    margin:auto;
-    padding:15px 20px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-
-.logo{
-    font-size:23px;
-    font-weight:800;
-    color:#e53935;
-}
-
-.logo span{
-    color:#17202a;
-}
-
-.nav-buttons{
-    display:flex;
-    gap:10px;
-}
-
-.btn{
-    text-decoration:none;
-    padding:11px 18px;
-    border-radius:8px;
-    font-weight:700;
-    display:inline-block;
-}
-
-.call{
-    background:#e53935;
-    color:#fff;
-}
-
-.whatsapp{
-    background:#20b858;
-    color:#fff;
-}
-
-.hero{
-    background:linear-gradient(135deg,#111827,#263548);
-    color:white;
-    padding:75px 20px;
-}
-
-.hero-inner{
-    max-width:1200px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:1.2fr .8fr;
-    gap:40px;
-    align-items:center;
-}
-
-.badge{
-    display:inline-block;
-    background:#ffffff18;
-    border:1px solid #ffffff35;
-    padding:8px 14px;
-    border-radius:30px;
-    margin-bottom:18px;
-}
-
-.hero h1{
-    font-size:48px;
-    line-height:1.12;
-    margin-bottom:18px;
-}
-
-.hero h1 span{
-    color:#ffca28;
-}
-
-.hero p{
-    font-size:18px;
-    color:#e4e7eb;
-    margin-bottom:25px;
-}
-
-.hero-buttons{
-    display:flex;
-    gap:12px;
-    flex-wrap:wrap;
-}
-
-.hero-card{
-    background:white;
-    color:#17202a;
-    padding:30px;
-    border-radius:20px;
-    box-shadow:0 20px 50px #0005;
-}
-
-.hero-card h3{
-    margin-bottom:15px;
-    font-size:23px;
-}
-
-.hero-card p{
-    color:#555;
-    font-size:15px;
-    margin-bottom:10px;
-}
-
-.section{
-    max-width:1200px;
-    margin:auto;
-    padding:70px 20px;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:40px;
-}
-
-.section-title h2{
-    font-size:36px;
-    margin-bottom:8px;
-}
-
-.section-title p{
-    color:#667085;
-}
-
-.services{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:22px;
-}
-
-.service{
-    background:white;
-    padding:28px;
-    border-radius:16px;
-    box-shadow:0 6px 25px rgba(0,0,0,.07);
-    transition:.3s;
-}
-
-.service:hover{
-    transform:translateY(-5px);
-}
-
-.icon{
-    width:58px;
-    height:58px;
-    border-radius:14px;
-    background:#fff0f0;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:30px;
-    margin-bottom:18px;
-}
-
-.service h3{
-    font-size:21px;
-    margin-bottom:8px;
-}
-
-.service p{
-    color:#667085;
-}
-
-.prices{
-    background:#111827;
-    color:white;
-}
-
-.price-grid{
-    display:grid;
-    grid-template-columns:repeat(5,1fr);
-    gap:15px;
-}
-
-.price{
-    background:#1f2937;
-    border:1px solid #374151;
-    padding:25px 15px;
-    text-align:center;
-    border-radius:14px;
-}
-
-.price h3{
-    font-size:16px;
-    min-height:48px;
-}
-
-.price strong{
-    display:block;
-    font-size:27px;
-    color:#ffca28;
-    margin-top:10px;
-}
-
-.areas{
-    display:flex;
-    flex-wrap:wrap;
-    gap:12px;
-    justify-content:center;
-}
-
-.area{
-    background:white;
-    padding:12px 20px;
-    border-radius:30px;
-    box-shadow:0 3px 12px #00000010;
-    font-weight:600;
-}
-
-.booking{
-    background:#ffffff;
-    max-width:800px;
-    margin:auto;
-    padding:35px;
-    border-radius:18px;
-    box-shadow:0 8px 30px rgba(0,0,0,.08);
-}
-
-.form-group{
-    margin-bottom:15px;
-}
-
-.form-group input,
-.form-group textarea,
-.form-group select{
-    width:100%;
-    padding:14px;
-    border:1px solid #ddd;
-    border-radius:8px;
-    font-size:16px;
-}
-
-.form-group textarea{
-    height:110px;
-    resize:none;
-}
-
-.submit{
-    width:100%;
-    border:0;
-    cursor:pointer;
-    background:#20b858;
-    color:white;
-    padding:15px;
-    border-radius:8px;
-    font-size:17px;
-    font-weight:700;
-}
-
-.contact{
-    background:#e53935;
-    color:white;
-    text-align:center;
-    padding:60px 20px;
-}
-
-.contact h2{
-    font-size:35px;
-    margin-bottom:12px;
-}
-
-.contact p{
-    margin-bottom:22px;
-}
-
-footer{
-    background:#0b0f14;
-    color:#cbd5e1;
-    text-align:center;
-    padding:30px 20px;
-}
-
-.float-wa{
-    position:fixed;
-    right:20px;
-    bottom:20px;
-    width:58px;
-    height:58px;
-    border-radius:50%;
-    background:#20b858;
-    color:white;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-decoration:none;
-    font-size:28px;
-    box-shadow:0 5px 20px #0004;
-    z-index:1000;
-}
-
-@media(max-width:900px){
-    .hero-inner{
-        grid-template-columns:1fr;
-    }
-
-    .services{
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .price-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .hero h1{
-        font-size:39px;
-    }
-}
-
-@media(max-width:600px){
-    .nav{
-        padding:12px 14px;
-    }
-
-    .logo{
-        font-size:18px;
-    }
-
-    .nav-buttons .btn{
-        padding:9px 11px;
-        font-size:13px;
-    }
-
-    .hero{
-        padding:50px 18px;
-    }
-
-    .hero h1{
-        font-size:34px;
-    }
-
-    .hero p{
-        font-size:16px;
-    }
-
-    .services{
-        grid-template-columns:1fr;
-    }
-
-    .price-grid{
-        grid-template-columns:1fr 1fr;
-    }
-
-    .section{
-        padding:50px 16px;
-    }
-
-    .section-title h2{
-        font-size:29px;
-    }
-
-    .booking{
-        padding:22px;
-    }
-}
-</style>
+</script>
 </head>
-
 <body>
-
-<header>
-<div class="nav">
-
-<div class="logo">
-Excellence <span>Chimney Service</span>
-</div>
-
-<div class="nav-buttons">
-<a class="btn call" href="tel:8130457838">📞 Call</a>
-<a class="btn whatsapp" href="https://wa.me/918130457838" target="_blank">WhatsApp</a>
-</div>
-
-</div>
+<header class="nav">
+  <a class="brand" href="#top"><span class="brand-mark">E</span><span>Excellence <b>Chimney Service</b></span></a>
+  <nav><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#areas">Areas</a><a href="#contact">Contact</a></nav>
+  <a class="nav-call" href="tel:+918130457838">Call Now</a>
 </header>
 
-
+<main id="top">
 <section class="hero">
-
-<div class="hero-inner">
-
-<div>
-
-<div class="badge">Delhi NCR • Home Appliance Service</div>
-
-<h1>
-Professional <span>Chimney & Kitchen Appliance</span> Service
-</h1>
-
-<p>
-Chimney cleaning, repair and kitchen appliance service at your doorstep.
-Serving Delhi NCR with convenient home service.
-</p>
-
-<div class="hero-buttons">
-<a class="btn call" href="tel:8130457838">📞 Call 8130457838</a>
-
-<a class="btn whatsapp"
-href="https://wa.me/918130457838?text=Hello%20Excellence%20Chimney%20Service,%20I%20need%20service."
-target="_blank">
-💬 Book on WhatsApp
-</a>
-</div>
-
-</div>
-
-
-<div class="hero-card">
-
-<h3>Book Home Service</h3>
-
-<p>✓ Chimney Cleaning & Repair</p>
-<p>✓ Gas Stove & Hob Service</p>
-<p>✓ Microwave & Oven Service</p>
-<p>✓ Delhi NCR Home Visit</p>
-<p>✓ Easy Call & WhatsApp Booking</p>
-
-<br>
-
-<a class="btn call" href="tel:8130457838">
-Call Now
-</a>
-
-</div>
-
-</div>
-
+  <div class="hero-copy">
+    <div class="eyebrow">DELHI NCR • HOME APPLIANCE SERVICE</div>
+    <h1>Clean Kitchen.<br><span>Better Living.</span></h1>
+    <p class="lead">Professional chimney cleaning & repair, gas stove & hob service, microwave and oven repair at your doorstep.</p>
+    <div class="actions">
+      <a class="btn primary" href="tel:+918130457838">☎ 8130457838</a>
+      <a class="btn whatsapp" href="https://wa.me/918130457838?text=Hello%20Excellence%20Chimney%20Service%2C%20I%20want%20to%20book%20a%20home%20service." target="_blank" rel="noopener">💬 WhatsApp Booking</a>
+    </div>
+    <div class="trust"><span>✓ Home Visit</span><span>✓ Easy Booking</span><span>✓ Delhi NCR</span></div>
+  </div>
+  <div class="hero-photo">
+    <img src="https://images.unsplash.com/photo-1778731525489-439d0dff9e31?auto=format&fit=crop&q=85&w=1400" alt="Modern kitchen with stove and range hood">
+    <div class="photo-tag"><strong>Kitchen Appliance Care</strong><small>Chimney • Hob • Microwave • Oven</small></div>
+  </div>
 </section>
 
-
-<section class="section">
-
-<div class="section-title">
-
-<h2>Our Services</h2>
-
-<p>
-Kitchen chimney and home appliance repair services
-</p>
-
-</div>
-
-
-<div class="services">
-
-<div class="service">
-<div class="icon">🧹</div>
-<h3>Chimney Cleaning</h3>
-<p>
-Deep cleaning and basic cleaning service for kitchen chimneys.
-</p>
-</div>
-
-
-<div class="service">
-<div class="icon">🔧</div>
-<h3>Chimney Repair</h3>
-<p>
-Chimney troubleshooting, repair and maintenance service.
-</p>
-</div>
-
-
-<div class="service">
-<div class="icon">🔥</div>
-<h3>Gas Stove Repair</h3>
-<p>
-Gas stove inspection, repair and maintenance at home.
-</p>
-</div>
-
-
-<div class="service">
-<div class="icon">🍳</div>
-<h3>Gas Hob Service</h3>
-<p>
-Built-in gas hob repair and service for kitchen appliances.
-</p>
-</div>
-
-
-<div class="service">
-<div class="icon">📺</div>
-<h3>Microwave Service</h3>
-<p>
-Microwave oven inspection and repair service.
-</p>
-</div>
-
-
-<div class="service">
-<div class="icon">♨️</div>
-<h3>Oven Service</h3>
-<p>
-Kitchen oven checking, repair and maintenance service.
-</p>
-</div>
-
-</div>
-
+<section class="stats">
+  <div><strong>₹999</strong><span>Chimney Deep Cleaning</span></div>
+  <div><strong>₹499</strong><span>Basic Chimney Cleaning</span></div>
+  <div><strong>₹149</strong><span>Visit Charges</span></div>
+  <div><strong>8+</strong><span>Delhi NCR Areas</span></div>
 </section>
 
-
-<section class="prices">
-
-<div class="section">
-
-<div class="section-title">
-<h2>Service Price</h2>
-<p style="color:#cbd5e1">
-Starting prices — final charges may depend on the appliance/service.
-</p>
-</div>
-
-<div class="price-grid">
-
-<div class="price">
-<h3>Chimney Deep Cleaning</h3>
-<strong>₹999</strong>
-</div>
-
-<div class="price">
-<h3>Chimney Basic Cleaning</h3>
-<strong>₹499</strong>
-</div>
-
-<div class="price">
-<h3>Gas Stove Repair</h3>
-<strong>₹199</strong>
-</div>
-
-<div class="price">
-<h3>Gas Hob Inbuilt</h3>
-<strong>₹199</strong>
-</div>
-
-<div class="price">
-<h3>Visit Charges</h3>
-<strong>₹149</strong>
-</div>
-
-</div>
-
-</div>
-
+<section id="services" class="section">
+  <div class="section-head"><div><span class="eyebrow">WHAT WE DO</span><h2>One team for your kitchen appliances.</h2></div><p>Service focused on practical diagnosis, cleaning and repair for everyday kitchen appliances.</p></div>
+  <div class="cards">
+    <article class="card"><div class="icon">🧹</div><h3>Chimney Cleaning</h3><p>Deep cleaning and basic cleaning for kitchen chimneys to improve hygiene and performance.</p><a href="#contact">Book service →</a></article>
+    <article class="card"><div class="icon">🔧</div><h3>Chimney Repair</h3><p>Inspection, troubleshooting and maintenance for common chimney problems.</p><a href="#contact">Book service →</a></article>
+    <article class="card"><div class="icon">🔥</div><h3>Gas Stove Repair</h3><p>Home service for gas stove inspection, repair and maintenance.</p><a href="#contact">Book service →</a></article>
+    <article class="card"><div class="icon">🍳</div><h3>Gas Hob Service</h3><p>Built-in hob checking, repair and maintenance for kitchen appliances.</p><a href="#contact">Book service →</a></article>
+    <article class="card"><div class="icon">📺</div><h3>Microwave Repair</h3><p>Microwave oven inspection and repair service at your doorstep.</p><a href="#contact">Book service →</a></article>
+    <article class="card"><div class="icon">♨️</div><h3>Oven Service</h3><p>Kitchen oven checking, repair and maintenance for common appliance issues.</p><a href="#contact">Book service →</a></article>
+  </div>
 </section>
 
-
-<section class="section">
-
-<div class="section-title">
-
-<h2>Service Areas</h2>
-
-<p>Home service available across Delhi NCR</p>
-
-</div>
-
-<div class="areas">
-
-<span class="area">Delhi</span>
-<span class="area">Noida</span>
-<span class="area">Gurgaon</span>
-<span class="area">Ghaziabad</span>
-<span class="area">Sonipat</span>
-<span class="area">Faridabad</span>
-<span class="area">Greater Noida</span>
-<span class="area">Meerut</span>
-<span class="area">Modinagar</span>
-<span class="area">Hapur</span>
-
-</div>
-
+<section class="visual">
+  <div class="visual-img"><img src="https://images.unsplash.com/photo-1722859033378-38908e783614?auto=format&fit=crop&q=85&w=1400" alt="Kitchen with stove and microwave"></div>
+  <div class="visual-copy"><span class="eyebrow">KITCHEN CARE</span><h2>Keep your chimney and appliances working better.</h2><p>From chimney cleaning to hob, gas stove, microwave and oven service, book a home visit with one simple call or WhatsApp message.</p><a class="btn primary" href="#contact">Book Home Service</a></div>
 </section>
 
-
-<section class="section">
-
-<div class="section-title">
-
-<h2>Book Your Service</h2>
-
-<p>Fill the form and send your service request on WhatsApp.</p>
-
-</div>
-
-
-<div class="booking">
-
-<div class="form-group">
-<input id="name" type="text" placeholder="Your Name">
-</div>
-
-<div class="form-group">
-<input id="phone" type="tel" placeholder="Mobile Number">
-</div>
-
-<div class="form-group">
-
-<select id="service">
-<option>Chimney Cleaning</option>
-<option>Chimney Repair</option>
-<option>Gas Stove Repair</option>
-<option>Gas Hob Service</option>
-<option>Microwave Service</option>
-<option>Oven Service</option>
-</select>
-
-</div>
-
-<div class="form-group">
-<textarea id="message" placeholder="Tell us about your appliance problem"></textarea>
-</div>
-
-<button class="submit" onclick="sendWhatsApp()">
-💬 Send Booking Request on WhatsApp
-</button>
-
-</div>
-
+<section id="pricing" class="section pricing">
+  <div class="section-head"><div><span class="eyebrow">STARTING PRICES</span><h2>Simple service pricing.</h2></div><p>Final charges can depend on appliance model, fault and required parts.</p></div>
+  <div class="price-grid">
+    <div class="price"><span>Chimney Deep Cleaning</span><strong>₹999</strong><small>Starting price</small></div>
+    <div class="price"><span>Chimney Basic Cleaning</span><strong>₹499</strong><small>Starting price</small></div>
+    <div class="price"><span>Gas Stove Repair</span><strong>₹199</strong><small>Starting price</small></div>
+    <div class="price"><span>Gas Hob Inbuilt</span><strong>₹199</strong><small>Starting price</small></div>
+    <div class="price"><span>Visit Charges</span><strong>₹149</strong><small>Service visit</small></div>
+  </div>
 </section>
 
-
-<section class="contact">
-
-<h2>Need Chimney or Appliance Service?</h2>
-
-<p>
-Call Excellence Chimney Service for home service in Delhi NCR.
-</p>
-
-<a class="btn whatsapp"
-href="https://wa.me/918130457838"
-target="_blank">
-WhatsApp Now
-</a>
-
-&nbsp;
-
-<a class="btn" style="background:white;color:#e53935"
-href="tel:8130457838">
-Call 8130457838
-</a>
-
+<section id="areas" class="area-section">
+  <div><span class="eyebrow">SERVICE AREA</span><h2>Delhi NCR home service</h2><p>Available across selected Delhi NCR locations.</p></div>
+  <div class="area-pills"><span>Delhi</span><span>Noida</span><span>Gurgaon</span><span>Ghaziabad</span><span>Sonipat</span><span>Faridabad</span><span>Greater Noida</span><span>Meerut</span><span>Modinagar</span><span>Hapur</span></div>
 </section>
 
+<section id="contact" class="contact">
+  <div class="contact-copy"><span class="eyebrow">BOOK A SERVICE</span><h2>Need chimney or appliance service?</h2><p>Send your requirement on WhatsApp or call directly.</p><div class="contact-number">8130457838</div><div class="actions"><a class="btn primary" href="tel:+918130457838">Call Now</a><a class="btn whatsapp" href="https://wa.me/918130457838?text=Hello%20Excellence%20Chimney%20Service%2C%20please%20book%20my%20service." target="_blank" rel="noopener">WhatsApp Now</a></div></div>
+  <form class="booking" onsubmit="sendWhatsApp(event)">
+    <h3>Quick Booking</h3>
+    <label>Your Name<input id="name" required placeholder="Enter your name"></label>
+    <label>Mobile Number<input id="mobile" required inputmode="numeric" placeholder="Enter mobile number"></label>
+    <label>Service<select id="service"><option>Chimney Cleaning</option><option>Chimney Repair</option><option>Gas Stove Repair</option><option>Gas Hob Service</option><option>Microwave Repair</option><option>Oven Service</option></select></label>
+    <button class="btn whatsapp full" type="submit">💬 Send Booking on WhatsApp</button>
+  </form>
+</section>
+</main>
 
-<footer>
-
-<strong>Excellence Chimney Service</strong>
-
-<p>
-Karawal Nagar, Delhi
-</p>
-
-<p>
-Chimney • Gas Stove • Gas Hob • Microwave • Oven
-</p>
-
-<p>
-© 2026 Excellence Chimney Service. All Rights Reserved.
-</p>
-
-</footer>
-
-
-<a class="float-wa"
-href="https://wa.me/918130457838"
-target="_blank"
-aria-label="WhatsApp">
-💬
-</a>
-
-
+<footer><div><strong>Excellence Chimney Service</strong><p>Chimney • Gas Stove • Gas Hob • Microwave • Oven</p></div><div>Karawal Nagar, Delhi - 110094<br><a href="tel:+918130457838">8130457838</a></div><div class="copyright">© 2026 Excellence Chimney Service. All Rights Reserved.</div></footer>
+<div class="mobile-bar"><a href="tel:+918130457838">☎ Call</a><a href="https://wa.me/918130457838" target="_blank" rel="noopener">💬 WhatsApp</a></div>
 <script>
-
-function sendWhatsApp(){
-
-let name = document.getElementById("name").value;
-let phone = document.getElementById("phone").value;
-let service = document.getElementById("service").value;
-let message = document.getElementById("message").value;
-
-let text =
-"Hello Excellence Chimney Service,%0A%0A" +
-"Name: " + encodeURIComponent(name) + "%0A" +
-"Mobile: " + encodeURIComponent(phone) + "%0A" +
-"Service: " + encodeURIComponent(service) + "%0A" +
-"Problem: " + encodeURIComponent(message);
-
-window.open(
-"https://wa.me/918130457838?text=" + text,
-"_blank"
-);
-
+function sendWhatsApp(e){
+ e.preventDefault();
+ const n=document.getElementById('name').value.trim(), m=document.getElementById('mobile').value.trim(), s=document.getElementById('service').value;
+ const text=`Hello Excellence Chimney Service,%0AName: ${encodeURIComponent(n)}%0AMobile: ${encodeURIComponent(m)}%0AService: ${encodeURIComponent(s)}%0AI want to book a home service.`;
+ window.open('https://wa.me/918130457838?text='+text,'_blank');
 }
-
 </script>
-
 </body>
 </html>
