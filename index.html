@@ -7,13 +7,17 @@
 <meta name="description" content="Excellence Chimney Service in Karawal Nagar, Delhi 110094. Chimney repair, deep cleaning, gas hob, microwave and kitchen appliance service. Call 08130457838.">
 <meta name="keywords" content="chimney service Delhi, chimney repair Karawal Nagar, chimney deep cleaning Delhi, gas hob service Delhi, microwave repair Delhi">
 <link rel="stylesheet" href="style.css">
+<style>
+.hero-photo{width:100%;height:100%;min-height:430px;object-fit:cover;border-radius:28px;display:block;box-shadow:0 20px 50px #0003}
+.photo-section{max-width:1200px;margin:auto;padding:0 6% 70px}
+.photo-section img{width:100%;border-radius:22px;display:block;box-shadow:0 15px 45px #0002}
+</style>
 </head>
 <body>
 <header class="top">
   <div class="brand">EXCELLENCE <span>CHIMNEY SERVICE</span></div>
   <a class="call" href="tel:08130457838">☎ 08130457838</a>
 </header>
-
 <nav>
   <a href="#home">Home</a><a href="#services">Services</a><a href="#why">Why Us</a>
   <a href="#areas">Areas</a><a href="#contact">Contact</a>
@@ -31,9 +35,8 @@
     </div>
     <div class="trust"><span>✓ Doorstep Service</span><span>✓ Experienced Technicians</span><span>✓ Transparent Pricing</span></div>
   </div>
-  <div class="hero-art">
-    <div class="appliance">CHIMNEY<br><small>REPAIR • CLEANING</small></div>
-    <div class="tech">TECHNICIAN<br><small>AT YOUR DOORSTEP</small></div>
+  <div>
+    <img class="hero-photo" src="assets/excellence-website-banner.jpg" alt="Excellence Chimney Service technician repairing kitchen chimney">
   </div>
 </section>
 
@@ -53,6 +56,10 @@
     <article><div class="icon">◉</div><h3>Gas Hob Service</h3><p>Burner cleaning, ignition issues, flame adjustment and service support.</p><a href="tel:08130457838">Book Service →</a></article>
     <article><div class="icon">▣</div><h3>Microwave Repair</h3><p>Heating, display, switch, power and other common microwave faults.</p><a href="tel:08130457838">Book Repair →</a></article>
   </div>
+</section>
+
+<section class="photo-section">
+  <img src="assets/excellence-website-banner.jpg" alt="Kitchen appliance service by Excellence Chimney Service" loading="lazy">
 </section>
 
 <section class="diagnostic">
@@ -103,13 +110,12 @@
 </main>
 
 <footer><b>EXCELLENCE CHIMNEY SERVICE</b><br>Karawal Nagar, Delhi 110094<br><a href="tel:08130457838">08130457838</a></footer>
-
 <div class="float"><a href="tel:08130457838">☎</a><a href="https://wa.me/918130457838">◉</a></div>
 <script>
 function sendWhatsApp(e){
  e.preventDefault();
- const n=document.getElementById('name').value, p=document.getElementById('phone').value;
- const s=document.getElementById('service').value, m=document.getElementById('message').value;
+ const n=document.getElementById('name').value,p=document.getElementById('phone').value;
+ const s=document.getElementById('service').value,m=document.getElementById('message').value;
  const t=`Hello Excellence Chimney Service. Name: ${n}. Mobile: ${p}. Service: ${s}. Problem: ${m}`;
  location.href='https://wa.me/918130457838?text='+encodeURIComponent(t);
 }
