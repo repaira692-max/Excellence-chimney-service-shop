@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+      <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#08111f"/><stop offset="55%" stop-color="#142b46"/><stop offset="100%" stop-color="#0ea5a8"/></linearGradient>
+        <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".28"/></filter>
+      </defs>
+      <rect width="1200" height="800" rx="44" fill="url(#g)"/>
+      <circle cx="1020" cy="130" r="150" fill="#fff" opacity=".08"/>
+      <circle cx="180" cy="670" r="220" fill="#fff" opacity=".05"/>
+      <g filter="url(#s)">
+        <rect x="120" y="210" width="960" height="430" rx="36" fill="#fff" opacity=".12"/>
+        <rect x="180" y="300" width="840" height="240" rx="28" fill="#101827" opacity=".88"/>
+        <rect x="250" y="360" width="250" height="110" rx="18" fill="#e5edf4"/>
+        <rect x="550" y="360" width="350" height="110" rx="18" fill="#dce7ee"/>
+        <path d="M350 350 C370 240 430 210 470 350" fill="none" stroke="#0ea5a8" stroke-width="26" stroke-linecap="round"/>
+        <path d="M410 220 C430 150 500 150 520 220" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="16" stroke-linecap="round"/>
+        <circle cx="650" cy="415" r="34" fill="#0ea5a8"/>
+        <circle cx="760" cy="415" r="34" fill="#0ea5a8"/>
+      </g>
+      <text x="120" y="125" font-family="Arial,sans-serif" font-size="58" font-weight="800" fill="#fff">🏠 Chimney Cleaning</text>
+      <text x="122" y="175" font-family="Arial,sans-serif" font-size="28" fill="#d9f7f7">Professional chimney cleaning & repair</text>
+      <text x="120" y="710" font-family="Arial,sans-serif" font-size="25" fill="#fff" opacity=".88">Excellence Chimney Service • Delhi NCR • Doorstep Booking</text>
+    </svg>
