@@ -42,3 +42,7 @@ with:
 `<img class="service-img real-photo" src="assets/chimney-service.webp" alt="Excellence Chimney Service technician cleaning a kitchen chimney">`
 
 Do not copy photos, logos or text from another company's website without permission.
+
+
+## Photo version
+This version includes generated service/technician visuals in `assets/`. Replace them with your own real business photos whenever available for the most authentic presentation.
