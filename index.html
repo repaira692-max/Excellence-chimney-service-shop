@@ -3,118 +3,1127 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Excellence Chimney Service</title>
-<meta name="description" content="Chimney, Hob, Gas Stove, Microwave and Oven repair and service in Delhi NCR. Inspection price ₹149.">
+
+<title>Excellence Chimney Service | Chimney, Hob & Microwave Repair Delhi NCR</title>
+
+<meta name="description"
+content="Excellence Chimney Service provides chimney repair, chimney cleaning, hob repair, gas hob service and microwave repair across Delhi NCR. Call 8130457838 for booking.">
+
+<meta name="keywords"
+content="chimney repair Delhi NCR, chimney service Delhi, chimney cleaning Delhi, hob repair Delhi, gas hob repair, microwave repair Delhi, chimney installation, kitchen chimney service">
+
+<link rel="canonical" href="https://excellencechimneyservice.shop/">
+
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#07111f">
+
+<meta property="og:title" content="Excellence Chimney Service">
+<meta property="og:description" content="Chimney, Hob & Microwave Repair Service across Delhi NCR.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://excellencechimneyservice.shop/">
+
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
 body{
-  font-family:Arial,Helvetica,sans-serif;
-  background:#f4f8fa;
-  color:#111827;
-  padding-bottom:75px;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#06111f;
+    color:#fff;
+    line-height:1.6;
 }
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.container{
+    width:92%;
+    max-width:1180px;
+    margin:auto;
+}
+
+/* HEADER */
+
 header{
-  background:linear-gradient(135deg,#071525,#0b3140);
-  color:white;
-  padding:28px 18px;
-  text-align:center;
+    position:sticky;
+    top:0;
+    z-index:999;
+    background:rgba(5,15,28,.92);
+    backdrop-filter:blur(15px);
+    border-bottom:1px solid rgba(255,255,255,.1);
 }
-header h1{font-size:28px;margin-bottom:8px}
-header p{font-size:15px;opacity:.9}
-.container{max-width:900px;margin:auto;padding:24px 16px}
+
+.nav{
+    min-height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-size:21px;
+    font-weight:900;
+}
+
+.logo span{
+    color:#21d4ff;
+}
+
+.nav ul{
+    display:flex;
+    list-style:none;
+    gap:24px;
+}
+
+.nav a:hover{
+    color:#21d4ff;
+}
+
+/* HERO */
+
+.hero{
+    min-height:720px;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
+    background:
+    radial-gradient(circle at 80% 20%,#173d67 0,transparent 35%),
+    radial-gradient(circle at 10% 90%,#241c59 0,transparent 30%);
+}
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:50px;
+    align-items:center;
+}
+
+.badge{
+    display:inline-block;
+    padding:8px 15px;
+    border-radius:50px;
+    background:rgba(33,212,255,.1);
+    border:1px solid rgba(33,212,255,.3);
+    color:#9cecff;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+h1{
+    font-size:clamp(42px,6vw,72px);
+    line-height:1.02;
+    letter-spacing:-2px;
+    margin-bottom:22px;
+}
+
+h1 span{
+    color:#21d4ff;
+}
+
+.hero-text{
+    color:#afc1d5;
+    font-size:18px;
+    max-width:680px;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:30px;
+}
+
+.btn{
+    padding:14px 21px;
+    border-radius:13px;
+    font-weight:bold;
+    display:inline-block;
+    transition:.25s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.call{
+    background:#fff;
+    color:#07111f;
+}
+
+.whatsapp{
+    background:#20d366;
+    color:#06140b;
+}
+
+.blue{
+    background:linear-gradient(135deg,#21d4ff,#4588ff);
+    color:#04101c;
+}
+
+/* 3D */
+
+.scene{
+    height:430px;
+    display:grid;
+    place-items:center;
+    perspective:1000px;
+}
+
+.cube{
+    width:240px;
+    height:240px;
+    position:relative;
+    transform-style:preserve-3d;
+    animation:rotateCube 9s linear infinite;
+}
+
+.face{
+    position:absolute;
+    width:240px;
+    height:240px;
+    border-radius:28px;
+    border:1px solid rgba(255,255,255,.25);
+    background:linear-gradient(
+        145deg,
+        rgba(33,212,255,.2),
+        rgba(101,67,255,.18)
+    );
+    box-shadow:
+    0 0 50px rgba(33,212,255,.18),
+    inset 0 0 50px rgba(255,255,255,.05);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:25px;
+    font-weight:900;
+    letter-spacing:3px;
+}
+
+.front{transform:translateZ(120px)}
+.back{transform:rotateY(180deg) translateZ(120px)}
+.right{transform:rotateY(90deg) translateZ(120px)}
+.left{transform:rotateY(-90deg) translateZ(120px)}
+.top{transform:rotateX(90deg) translateZ(120px)}
+.bottom{transform:rotateX(-90deg) translateZ(120px)}
+
+@keyframes rotateCube{
+    from{
+        transform:rotateX(-10deg) rotateY(0deg);
+    }
+    to{
+        transform:rotateX(10deg) rotateY(360deg);
+    }
+}
+
+/* SECTION */
+
+section{
+    padding:85px 0;
+}
+
+.heading{
+    max-width:720px;
+    margin-bottom:38px;
+}
+
+.heading small{
+    color:#21d4ff;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+
+.heading h2{
+    font-size:clamp(32px,4vw,50px);
+    margin:7px 0;
+}
+
+.heading p{
+    color:#a9bbcf;
+}
+
+/* SERVICES */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
 .card{
-  background:#fff;
-  border:1px solid #dbe4e8;
-  border-radius:24px;
-  padding:30px 24px;
-  margin-bottom:22px;
-  box-shadow:0 8px 25px rgba(0,0,0,.05);
+    padding:28px;
+    border-radius:22px;
+    background:linear-gradient(145deg,#10253d,#091827);
+    border:1px solid rgba(255,255,255,.1);
+    transition:.3s;
 }
-.card h2{font-size:27px;margin-bottom:28px}
-.price{
-  color:#118f8b;
-  font-size:24px;
-  font-weight:800;
-  margin-bottom:12px;
+
+.card:hover{
+    transform:translateY(-7px);
+    border-color:rgba(33,212,255,.5);
 }
-.sub{color:#64748b;font-size:17px;margin-bottom:28px}
-.book{
-  display:inline-block;
-  color:#118f8b;
-  font-size:18px;
-  font-weight:800;
-  text-decoration:none;
+
+.icon{
+    font-size:40px;
+    margin-bottom:12px;
 }
-.book:hover{text-decoration:underline}
-.note{
-  text-align:center;
-  color:#64748b;
-  font-size:13px;
-  margin-top:8px;
+
+.card h3{
+    margin-bottom:8px;
 }
-.bottom{
-  position:fixed;
-  left:0;right:0;bottom:0;
-  height:70px;
-  display:flex;
-  z-index:99;
+
+.card p{
+    color:#a9bbcf;
+    font-size:14px;
 }
-.bottom a{
-  flex:1;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:#fff;
-  text-decoration:none;
-  font-size:19px;
-  font-weight:800;
+
+/* PRICE */
+
+.prices{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
 }
-.call{background:#061526}
-.whatsapp{background:#12aaa3}
-@media(max-width:500px){
-  header h1{font-size:24px}
-  .card{padding:28px 22px}
-  .card h2{font-size:25px}
+
+.price-card{
+    padding:23px;
+    border-radius:18px;
+    background:#0d2035;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.price-card strong{
+    display:block;
+    color:#21d4ff;
+    font-size:27px;
+    margin:8px 0;
+}
+
+/* AREAS */
+
+.area-list{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.area{
+    padding:10px 15px;
+    border-radius:50px;
+    background:#0c1d30;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+/* GALLERY */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
+.photo{
+    height:220px;
+    border-radius:20px;
+    background:
+    linear-gradient(135deg,#123e60,#271d57);
+    border:1px solid rgba(255,255,255,.1);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:45px;
+    position:relative;
+    overflow:hidden;
+}
+
+.photo b{
+    position:absolute;
+    bottom:15px;
+    left:18px;
+    font-size:16px;
+}
+
+/* BOOKING */
+
+.booking-box{
+    display:grid;
+    grid-template-columns:.8fr 1.2fr;
+    gap:30px;
+    background:#0c1e32;
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:25px;
+    padding:30px;
+}
+
+.booking-info h3{
+    font-size:30px;
+    margin:8px 0;
+}
+
+.booking-info p{
+    color:#a9bbcf;
+}
+
+.contact{
+    margin-top:20px;
+    padding:13px 0;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+form{
+    display:grid;
+    gap:13px;
+}
+
+.form-row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:13px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:14px;
+    border-radius:12px;
+    border:1px solid rgba(255,255,255,.12);
+    background:#071525;
+    color:#fff;
+    outline:none;
+}
+
+textarea{
+    min-height:120px;
+    resize:vertical;
+}
+
+/* FAQ */
+
+.faq{
+    display:grid;
+    gap:12px;
+}
+
+details{
+    background:#0d2035;
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:15px;
+    padding:17px 20px;
+}
+
+summary{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+details p{
+    color:#a9bbcf;
+    padding-top:10px;
+}
+
+/* FLOAT BUTTON */
+
+.floating{
+    position:fixed;
+    right:18px;
+    bottom:18px;
+    z-index:999;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.floating a{
+    padding:13px 18px;
+    border-radius:50px;
+    font-weight:bold;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+/* FOOTER */
+
+footer{
+    border-top:1px solid rgba(255,255,255,.1);
+    padding:30px 0;
+    color:#9eb2c7;
+}
+
+.footer-flex{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+/* MOBILE */
+
+@media(max-width:850px){
+
+    .nav ul{
+        display:none;
+    }
+
+    .hero-grid,
+    .booking-box{
+        grid-template-columns:1fr;
+    }
+
+    .scene{
+        height:350px;
+    }
+
+    .cards,
+    .gallery{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .prices{
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media(max-width:560px){
+
+    section{
+        padding:65px 0;
+    }
+
+    .cards,
+    .gallery,
+    .prices,
+    .form-row{
+        grid-template-columns:1fr;
+    }
+
+    .hero{
+        min-height:auto;
+        padding:65px 0;
+    }
+
+    .cube{
+        transform:scale(.75);
+    }
+
+    .cube{
+        animation:rotateCubeMobile 9s linear infinite;
+    }
+
+    @keyframes rotateCubeMobile{
+        from{transform:scale(.75) rotateY(0)}
+        to{transform:scale(.75) rotateY(360deg)}
+    }
 }
 </style>
+
+<!-- Local Business SEO Schema -->
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"LocalBusiness",
+ "name":"Excellence Chimney Service",
+ "url":"https://excellencechimneyservice.shop/",
+ "telephone":"+918130457838",
+ "description":"Chimney, hob and microwave repair and service across Delhi NCR.",
+ "areaServed":[
+   "Delhi",
+   "Noida",
+   "Ghaziabad",
+   "Gurugram",
+   "Faridabad",
+   "Greater Noida",
+   "Sonipat"
+ ],
+ "serviceType":[
+   "Chimney Repair",
+   "Chimney Cleaning",
+   "Chimney Installation",
+   "Hob Repair",
+   "Gas Hob Repair",
+   "Microwave Repair"
+ ]
+}
+</script>
+
 </head>
+
 <body>
 
 <header>
-  <h1>Excellence Chimney Service</h1>
-  <p>Chimney • Hob / Gas Stove • Microwave / Oven</p>
+<div class="container">
+<nav class="nav">
+
+<a class="logo" href="#home">
+Excellence <span>Chimney Service</span>
+</a>
+
+<ul>
+<li><a href="#services">Services</a></li>
+<li><a href="#prices">Price</a></li>
+<li><a href="#areas">Areas</a></li>
+<li><a href="#booking">Booking</a></li>
+</ul>
+
+</nav>
+</div>
 </header>
 
-<main class="container">
+<main>
 
-  <section class="card">
-    <h2>Chimney Service</h2>
-    <div class="price">Inspection Price ₹149</div>
-    <div class="sub">Cleaning / inspection</div>
-    <a class="book" href="tel:+918130457838">Book →</a>
-  </section>
+<!-- HERO -->
 
-  <section class="card">
-    <h2>Hob / Gas Stove</h2>
-    <div class="price">Inspection Price ₹149</div>
-    <div class="sub">Inspection / repair</div>
-    <a class="book" href="tel:+918130457838">Book →</a>
-  </section>
+<section class="hero" id="home">
 
-  <section class="card">
-    <h2>Microwave / Oven</h2>
-    <div class="price">Inspection Price ₹149</div>
-    <div class="sub">Inspection / repair</div>
-    <a class="book" href="tel:+918130457838">Book →</a>
-  </section>
+<div class="container hero-grid">
 
-  <p class="note">Inspection price ₹149. Any additional repair/service charges can be confirmed after inspection.</p>
+<div>
+
+<div class="badge">
+⚡ Delhi NCR Home Appliance Service
+</div>
+
+<h1>
+Expert <span>Chimney, Hob</span> & Microwave Service
+</h1>
+
+<p class="hero-text">
+Professional chimney repair, chimney cleaning, hob repair,
+gas hob service, microwave repair and installation support
+across Delhi NCR.
+</p>
+
+<div class="buttons">
+
+<a class="btn call"
+href="tel:+918130457838">
+📞 Call 8130457838
+</a>
+
+<a class="btn whatsapp"
+target="_blank"
+href="https://wa.me/918130457838?text=Hello%20Excellence%20Chimney%20Service%2C%20I%20want%20to%20book%20a%20service.">
+💬 WhatsApp Booking
+</a>
+
+<a class="btn blue"
+href="#booking">
+Book Service
+</a>
+
+</div>
+
+</div>
+
+<div class="scene">
+
+<div class="cube">
+
+<div class="face front">CHIMNEY</div>
+<div class="face back">SERVICE</div>
+<div class="face right">HOB</div>
+<div class="face left">REPAIR</div>
+<div class="face top">MICRO</div>
+<div class="face bottom">EXCELLENCE</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<div class="container">
+
+<div class="heading">
+<small>Our Services</small>
+<h2>Kitchen Appliance Services</h2>
+<p>
+Professional home service for chimney, hob and microwave appliances.
+</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">🌀</div>
+<h3>Chimney Repair & Cleaning</h3>
+<p>
+Kitchen chimney cleaning, suction problems, motor/fan
+issues, noise, lighting, switch and installation support.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🔥</div>
+<h3>Hob & Gas Hob Repair</h3>
+<p>
+Hob inspection, ignition problems, burner issues,
+knob problems and installation support.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">📡</div>
+<h3>Microwave Repair</h3>
+<p>
+Microwave inspection and repair for heating,
+display, door, switch and common electrical faults.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PRICE -->
+
+<section id="prices">
+
+<div class="container">
+
+<div class="heading">
+<small>Price List</small>
+<h2>Starting Service Prices</h2>
+<p>
+Final charges may vary according to appliance model,
+fault, parts and repair work.
+</p>
+</div>
+
+<div class="prices">
+
+<div class="price-card">
+<h3>Chimney Inspection</h3>
+<strong>₹149+</strong>
+<small>Visit / inspection</small>
+</div>
+
+<div class="price-card">
+<h3>Chimney Cleaning</h3>
+<strong>₹399+</strong>
+<small>Cleaning service</small>
+</div>
+
+<div class="price-card">
+<h3>Chimney Repair</h3>
+<strong>₹499+</strong>
+<small>Repair labour</small>
+</div>
+
+<div class="price-card">
+<h3>Chimney Installation</h3>
+<strong>₹699+</strong>
+<small>Installation labour</small>
+</div>
+
+<div class="price-card">
+<h3>Hob Inspection</h3>
+<strong>₹149+</strong>
+<small>Visit / inspection</small>
+</div>
+
+<div class="price-card">
+<h3>Hob Repair</h3>
+<strong>₹499+</strong>
+<small>Repair labour</small>
+</div>
+
+<div class="price-card">
+<h3>Microwave Inspection</h3>
+<strong>₹149+</strong>
+<small>Visit / inspection</small>
+</div>
+
+<div class="price-card">
+<h3>Microwave Repair</h3>
+<strong>₹499+</strong>
+<small>Repair labour</small>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- AREAS -->
+
+<section id="areas">
+
+<div class="container">
+
+<div class="heading">
+<small>Service Areas</small>
+<h2>Delhi NCR Major Cities</h2>
+<p>
+Service availability depends on technician schedule and exact locality.
+</p>
+</div>
+
+<div class="area-list">
+
+<span class="area">Delhi</span>
+<span class="area">North Delhi</span>
+<span class="area">South Delhi</span>
+<span class="area">East Delhi</span>
+<span class="area">West Delhi</span>
+<span class="area">Noida</span>
+<span class="area">Greater Noida</span>
+<span class="area">Ghaziabad</span>
+<span class="area">Indirapuram</span>
+<span class="area">Vaishali</span>
+<span class="area">Gurugram</span>
+<span class="area">Faridabad</span>
+<span class="area">Sonipat</span>
+<span class="area">Bahadurgarh</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section>
+
+<div class="container">
+
+<div class="heading">
+<small>Gallery</small>
+<h2>Our Service Work</h2>
+<p>
+Add your original technician and appliance service photographs here.
+</p>
+</div>
+
+<div class="gallery">
+
+<div class="photo">
+<span>🧰</span>
+<b>Chimney Service</b>
+</div>
+
+<div class="photo">
+<span>🌀</span>
+<b>Chimney Cleaning</b>
+</div>
+
+<div class="photo">
+<span>🔥</span>
+<b>Hob Repair</b>
+</div>
+
+<div class="photo">
+<span>📡</span>
+<b>Microwave Repair</b>
+</div>
+
+<div class="photo">
+<span>🔧</span>
+<b>Technician Service</b>
+</div>
+
+<div class="photo">
+<span>🏠</span>
+<b>Home Service</b>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section>
+
+<div class="container">
+
+<div class="heading">
+
+<small>About Us</small>
+
+<h2>Excellence Chimney Service</h2>
+
+<p>
+Excellence Chimney Service provides home-service support
+for kitchen appliances including chimney, hob and microwave.
+Customers can contact us by phone or WhatsApp to request
+inspection, cleaning, repair or installation service.
+Final pricing depends on appliance model, fault, location
+and parts required.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BOOKING -->
+
+<section id="booking">
+
+<div class="container">
+
+<div class="booking-box">
+
+<div class="booking-info">
+
+<small style="color:#21d4ff">
+BOOK A SERVICE
+</small>
+
+<h3>Need a technician?</h3>
+
+<p>
+Fill the form and your booking details will open directly
+in WhatsApp.
+</p>
+
+<div class="contact">
+📞 <strong>8130457838</strong>
+</div>
+
+<div class="contact">
+💬 WhatsApp Booking
+</div>
+
+<div class="contact">
+📍 Delhi NCR
+</div>
+
+</div>
+
+<form id="bookingForm">
+
+<div class="form-row">
+
+<input
+id="name"
+required
+placeholder="Your Name">
+
+<input
+id="phone"
+required
+type="tel"
+placeholder="Mobile Number">
+
+</div>
+
+<select id="service" required>
+
+<option value="">
+Select Service
+</option>
+
+<option>Chimney Repair</option>
+<option>Chimney Cleaning</option>
+<option>Chimney Installation</option>
+<option>Hob Repair</option>
+<option>Gas Hob Repair</option>
+<option>Microwave Repair</option>
+
+</select>
+
+<input
+id="area"
+required
+placeholder="Your Area / Locality">
+
+<textarea
+id="message"
+placeholder="Problem Details">
+</textarea>
+
+<button
+class="btn whatsapp"
+type="submit">
+
+Send Booking on WhatsApp →
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section>
+
+<div class="container">
+
+<div class="heading">
+
+<small>FAQ</small>
+
+<h2>Frequently Asked Questions</h2>
+
+</div>
+
+<div class="faq">
+
+<details>
+<summary>
+Do you provide chimney cleaning at home?
+</summary>
+
+<p>
+Yes, home-service booking can be requested across covered
+Delhi NCR locations, subject to technician availability.
+</p>
+
+</details>
+
+<details>
+<summary>
+Can I book through WhatsApp?
+</summary>
+
+<p>
+Yes. Use the WhatsApp button and send your appliance,
+area and problem details.
+</p>
+
+</details>
+
+<details>
+<summary>
+Are the prices fixed?
+</summary>
+
+<p>
+The displayed prices are starting prices. Final charges
+may vary after inspection and according to parts and repair work.
+</p>
+
+</details>
+
+<details>
+<summary>
+Which appliances do you service?
+</summary>
+
+<p>
+Chimney, kitchen hob/gas hob and microwave appliances
+are covered by the listed services.
+</p>
+
+</details>
+
+</div>
+
+</div>
+
+</section>
+
 </main>
 
-<div class="bottom">
-  <a class="call" href="tel:+918130457838">☎ Call</a>
-  <a class="whatsapp" href="https://wa.me/918130457838?text=Hello%20Excellence%20Chimney%20Service%2C%20I%20want%20to%20book%20an%20inspection.">● WhatsApp</a>
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container footer-flex">
+
+<div>
+© 2026 Excellence Chimney Service
 </div>
+
+<div>
+Chimney • Hob • Microwave • Delhi NCR
+</div>
+
+</div>
+
+</footer>
+
+<!-- FLOATING BUTTONS -->
+
+<div class="floating">
+
+<a
+class="call"
+href="tel:+918130457838">
+📞 Call
+</a>
+
+<a
+class="whatsapp"
+target="_blank"
+href="https://wa.me/918130457838?text=Hello%20Excellence%20Chimney%20Service%2C%20I%20want%20to%20book%20a%20service.">
+💬 WhatsApp
+</a>
+
+</div>
+
+<script>
+
+document
+.getElementById("bookingForm")
+.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+const name =
+document.getElementById("name").value.trim();
+
+const phone =
+document.getElementById("phone").value.trim();
+
+const service =
+document.getElementById("service").value;
+
+const area =
+document.getElementById("area").value.trim();
+
+const message =
+document.getElementById("message").value.trim();
+
+const text =
+`Hello Excellence Chimney Service,
+
+Booking Request
+
+Name: ${name}
+Mobile: ${phone}
+Service: ${service}
+Area: ${area}
+Problem: ${message || "Not specified"}`;
+
+window.open(
+"https://wa.me/918130457838?text="
++encodeURIComponent(text),
+"_blank"
+);
+
+});
+
+</script>
 
 </body>
 </html>
