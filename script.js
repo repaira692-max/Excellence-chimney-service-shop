@@ -1,39 +1,28 @@
-const phone = "918130457838";
+document.getElementById("year").textContent=new Date().getFullYear();
 
-function setBookingValues(service, area) {
-  if (service) document.getElementById("service").value = service;
-  if (area) document.getElementById("area").value = area;
-  document.getElementById("booking").scrollIntoView({behavior:"smooth"});
-}
-
-document.querySelectorAll("[data-service]").forEach(link => {
-  link.addEventListener("click", () => setBookingValues(link.dataset.service, ""));
+document.querySelectorAll("[data-service]").forEach(function(btn){
+  btn.addEventListener("click",function(){
+    var service=this.getAttribute("data-service");
+    var select=document.getElementById("service");
+    for(var i=0;i<select.options.length;i++){
+      if(select.options[i].value===service){select.selectedIndex=i;break;}
+    }
+  });
 });
 
-document.querySelectorAll(".area").forEach(button => {
-  button.addEventListener("click", () => setBookingValues("", button.dataset.area));
-});
-
-document.getElementById("bookingForm").addEventListener("submit", function(e) {
+document.getElementById("bookingForm").addEventListener("submit",function(e){
   e.preventDefault();
-  const name = document.getElementById("name").value.trim();
-  const userPhone = document.getElementById("phone").value.trim();
-  const service = document.getElementById("service").value;
-  const area = document.getElementById("area").value.trim();
-  const problem = document.getElementById("problem").value.trim();
-
-  const message =
-`Hello Excellence Chimney Service,
-
-I want to book a doorstep service.
-
-Name: ${name}
-Mobile: ${userPhone}
-Service: ${service}
-City/Area: ${area}
-Problem/Requirement: ${problem || "Not specified"}
-
-Please confirm the visit.`;
-
-  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, "_blank");
+  var name=document.getElementById("name").value.trim();
+  var phone=document.getElementById("phone").value.trim();
+  var area=document.getElementById("area").value;
+  var service=document.getElementById("service").value;
+  var message=document.getElementById("message").value.trim() || "No additional message";
+  var text="Hello Excellence Chimney Service,%0A%0A"+
+    "I want to book a home service.%0A"+
+    "Name: "+encodeURIComponent(name)+"%0A"+
+    "Mobile: "+encodeURIComponent(phone)+"%0A"+
+    "Area: "+encodeURIComponent(area)+"%0A"+
+    "Service: "+encodeURIComponent(service)+"%0A"+
+    "Problem: "+encodeURIComponent(message);
+  window.open("https://wa.me/918130457838?text="+text,"_blank");
 });
